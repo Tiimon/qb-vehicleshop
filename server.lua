@@ -46,7 +46,6 @@ AddEventHandler('playerDropped', function()
                 end
             end
             if vehicles[1] and financetimer[vehicles[1].citizenid] then financetimer[vehicles[1].citizenid] = nil end
-        end   
     end
 end)
 
